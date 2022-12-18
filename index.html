@@ -25,7 +25,7 @@
           >
           <ul class="site-nav">
             <li class="item">
-              <a href="./index.html" class="link">Студія</a>
+              <a href="./index.html" class="link current">Студія</a>
             </li>
             <li class="item">
               <a href="./portfolio.html" class="link">Портфоліо</a>
@@ -63,7 +63,9 @@
         <div class="container">
           <div class="content-hero">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="button">Замовити послугу</button>
+            <button type="button" class="button" data-modal-open>
+              Замовити послугу
+            </button>
           </div>
         </div>
       </section>
@@ -132,6 +134,7 @@
                 alt="людина займається написанням коду"
                 width="370"
               />
+              <p class="description-text">Десктопні додатки</p>
             </li>
             <li class="img-item">
               <img
@@ -139,6 +142,7 @@
                 alt="людина перевіряє зв'язок між телефоном та ноутбуком"
                 width="370"
               />
+              <p class="description-text">Мобільні додатки</p>
             </li>
             <li class="img-item">
               <img
@@ -146,6 +150,7 @@
                 alt="працівник вибирає колір"
                 width="370"
               />
+              <p class="description-text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -445,5 +450,13 @@
         </div>
       </div>
     </footer>
+    <!-- <div class="backdrop" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close>close</button>
+        <p>hello</p>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script> -->
   </body>
 </html>
